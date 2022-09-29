@@ -1,0 +1,75 @@
+{
+	"basiliskchampion":
+	{
+		"name" :
+		{
+			"plural" : "Basilisk Champions",
+			"singular" : "Basilisk Champion"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 8
+		},
+		"faction" : "grove",
+		"aiValue" : 1278,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"damage" :
+		{
+			 "max" : 15,
+			 "min" : 13
+		},
+		"defense" : 17,
+		"fightValue" : 1130,
+		"graphics" :
+		{
+			"animation" : "grove/battle/CR288.def",
+			"map" : "grove/map/AVW288.def",
+			"iconSmall" : "grove/iconsSmall/CPrS288G.bmp",
+			"iconLarge" : "grove/iconsBig/CPrL288G.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.7,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+        },
+		"doubleWide" : true,
+		"growth" : 3,
+		"hitPoints" : 70,
+		"level" : 5,
+		"sound" :
+		{
+			"attack" : "grove/basilisk/bsrdattk.wav",
+			"defend" : "grove/basilisk/bsrddfnd.wav",
+			"killed" : "grove/basilisk/bsrdkill.wav",
+			"move" : "grove/basilisk/bsrdmove.wav",
+			"wince" : "grove/basilisk/bsrdwnce.wav"
+		},
+		"speed" : 8,
+		"abilities":
+		{
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"shield" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : 0, //shield effect
+				"val" : 20
+			}
+		}	
+	}
+}

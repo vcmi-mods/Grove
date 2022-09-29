@@ -1,0 +1,70 @@
+{
+	"elderdruid":
+	{
+		"name" :
+		{
+			"plural" : "Elder Druids",
+			"singular" : "Elder Druid"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"faction" : "grove",
+		"aiValue" : 679,
+		"attack" : 11,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"defense" : 11,
+		"fightValue" : 644,
+		"graphics" :
+		{
+			"animation" : "grove/battle/CR286.def",
+			"map" : "grove/map/AvW286.def",
+			"iconSmall" : "grove/iconsSmall/CPRS286G.bmp",
+			"iconLarge" : "grove/iconsBig/CPrL286G.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 0.5,
+				"flight" : 1.00
+			}
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+		"level" : 4,
+		"sound" :
+		{
+			"attack" : "grove/druid/druiattk.wav",
+			"defend" : "grove/druid/druidfnd.wav",
+			"killed" : "grove/druid/druikill.wav",
+			"move" : "grove/druid/druimove.wav",
+			"wince" : "grove/druid/druiwnce.wav",
+ 		},
+		"speed" : 9,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 20,
+				"addInfo" : [1, 2]
+			}
+		}
+	}
+}

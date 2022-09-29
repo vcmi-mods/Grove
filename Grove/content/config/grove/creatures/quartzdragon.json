@@ -1,0 +1,79 @@
+{
+	"quartzdragon":
+	{
+		"name" :
+		{
+			"plural" : "Quartz Dragons",
+			"singular" : "Quartz Dragon"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "grove",
+		"aiValue" : 4450,
+		"attack" : 16,
+		"cost" :
+		{
+			"gold" : 2500,
+			"crystal" : 1
+		},
+		"damage" :
+		{
+			 "max" : 45,
+			 "min" : 35
+		},
+		"defense" : 19,
+		"fightValue" : 3504,
+		"graphics" :
+		{
+			"animation" : "grove/battle/CR291.DEF",
+			"map" : "grove/map/AVW291.def",
+			"iconSmall" : "grove/iconsSmall/CPrS291G.bmp",
+			"iconLarge" : "grove/iconsBig/CPrL291G.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 225,
+		"level" : 7,
+		"upgrades":
+		[
+			"amethystdragon"
+		],
+		"sound" :
+		{
+			"attack" : "grove/dragon/gdrgattk.wav",
+			"defend" : "grove/dragon/gdrgdfnd.wav",
+			"killed" : "grove/dragon/gdrgkill.wav",
+			"move" : "grove/dragon/gdrgmove.wav",
+			"wince" : "grove/dragon/gdrgwnce.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"noMorale" :
+			{
+				"type" : "NO_MORALE"
+			},
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : -1,
+				"val" : 50
+			}
+		}
+	}
+}

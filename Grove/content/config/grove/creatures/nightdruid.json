@@ -1,0 +1,74 @@
+{
+	"nightdruid":
+	{
+		"name" :
+		{
+			"plural" : "Night Druids",
+			"singular" : "Night Druid"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 8
+		},
+		"faction" : "grove",
+		"aiValue" : 501,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 450
+		},
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 7
+		},
+		"defense" : 10,
+		"fightValue" : 490,
+		"graphics" :
+		{
+			"animation" : "grove/battle/CR285.def",
+			"map" : "grove/map/AvW285.def",
+			"iconSmall" : "grove/iconsSmall/CPRS285G.bmp",
+			"iconLarge" : "grove/iconsBig/CPrL285G.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 0.5,
+				"flight" : 1.00
+			}
+		},
+		"growth" : 4,
+		"hitPoints" : 25,
+		"level" : 4,
+		"upgrades":
+		[
+			"elderdruid"
+		],
+		"sound" :
+		{
+			"attack" : "grove/druid/druiattk.wav",
+			"defend" : "grove/druid/druidfnd.wav",
+			"killed" : "grove/druid/druikill.wav",
+			"move" : "grove/druid/druimove.wav",
+			"wince" : "grove/druid/druiwnce.wav",
+ 		},
+		"speed" : 8,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 20,
+				"addInfo" : [1, 2]
+			}
+		}
+	}
+}

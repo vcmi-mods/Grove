@@ -1,0 +1,74 @@
+{
+	"11wanre" :
+	{
+		"class" : "warden",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Wanre",
+			"biography" : "Though lacking an inherent talent for magic, Wanre possesses a unique bond with the ancient earth creatures that allow him to recover all spell points day by day.",
+			"specialty" :
+			{
+				"description" : "{Shamanism}\r\n\r\nHero recovers all spell points at the start of new day.",
+				"tooltip" : "",
+				"name" : "Shamanism"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "grove/heroes/wanre/UN32Summ.bmp",
+			"specialtyLarge" : "grove/heroes/wanre/UN44Summ.bmp",
+			"large" : "grove/heroes/wanre/hpl294.bmp",
+			"small" : "grove/heroes/wanre/hps294.bmp"
+		},
+
+		"spellbook" :
+		[
+			"slow"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "faun",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "moonhunter",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "groveguard",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		"specialty":
+		[
+			{
+				"bonuses" :
+				[
+					{
+					"type" : "FULL_MANA_REGENERATION"
+					}
+				]
+			}
+		]
+	}
+}

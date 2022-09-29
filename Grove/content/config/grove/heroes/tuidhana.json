@@ -1,0 +1,76 @@
+{
+	"tuidhana" :
+	{
+		"class" : "warden",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Tuidhana",
+			"biography" : "The founder and sole ruler of her kingdom, Tuidhana always fights side by side with her troops. She knows how speed is important on the battlefield, so she mastered velocity as one of keys to victory.",
+			"specialty" :
+			{
+				"description" : "{Runner}\r\n\r\nAll units in army get +1 speed.",
+				"tooltip" : "",
+				"name" : "Runner"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "grove/heroes/tuidhana/Un32Fmag",
+			"specialtyLarge" : "grove/heroes/tuidhana/Un44Fmag",
+			"large" : "grove/heroes/tuidhana/hpl300.bmp",
+			"small" : "grove/heroes/tuidhana/hps300.bmp",
+		},
+
+		"spellbook" :
+		[
+			"viewAir"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "faun",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "moonhunter",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "groveguard",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}
+
+
+
+

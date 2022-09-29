@@ -1,0 +1,72 @@
+{
+	"16olath" :
+	{
+		"class" : "warden",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Olath",
+			"biography" : "Olath is known for his trade contacts with the nondrow, including Kreegans and Necromancers. He has become more adventurous lately, traveling to the Fiery Fields for unspoken reasons.",
+			"specialty" :
+			{
+				"description" : "{Crystals}\r\n\r\nIncreases kingdom's crystal production by 1 per day.",
+				"tooltip" : "",
+				"name" : "+1 Crystal"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "grove/heroes/olath/un32crys.bmp",
+			"specialtyLarge" : "grove/heroes/olath/un44crys.bmp",
+			"large" : "grove/heroes/olath/hpl299.bmp",
+			"small" : "grove/heroes/olath/hps299.bmp"
+		},
+
+		"spellbook" :
+		[
+			"viewAir" 
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "faun",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "moonhunter",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "groveguard",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			},
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

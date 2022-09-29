@@ -1,0 +1,78 @@
+{
+	"08sargh" :
+	{
+		"class" : "hunter",
+		"female" : false,
+	
+		"texts" :
+		{
+			"name" : "Sargh",
+			"biography" : "Even if the enemy is dominant, Sargh knows how to add strength his faction by providing materials to make city stronger.",
+			"specialty" :
+			{
+				"description" : "{Wood & Ore}\r\n\r\nIncreases kingdom's wood and ore production by 1 per day.",
+				"tooltip" : "?",
+				"name" : "+1 Wood & Ore"
+			}
+		},
+	
+		"images" :
+		{
+			"specialtySmall" : "grove/heroes/sargh/Un32WdOr.bmp",
+			"specialtyLarge" : "grove/heroes/sargh/Un44WdOr.bmp",
+			"large" : "grove/heroes/sargh/hpl291.bmp",
+			"small" : "grove/heroes/sargh/hps291.bmp"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "faun",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "moonhunter",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "groveguard",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty": //estate bonus
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "GENERATE_RESOURCE",
+						"subtype": "resource.wood",
+						"val": 1
+					},
+					{
+						"type": "GENERATE_RESOURCE",
+						"subtype": "resource.ore",
+						"val": 1
+					}
+				]
+			}
+		]
+	}
+}
+

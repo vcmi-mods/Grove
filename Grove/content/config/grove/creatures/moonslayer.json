@@ -1,0 +1,97 @@
+{
+	"moonslayer":
+	{
+		"name" :
+		{
+			"plural" : "Moon Slayers",
+			"singular" : "Moon Slayer"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "grove",
+		"aiValue" : 263,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 160
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 3
+		},
+		"defense" : 5,
+		"fightValue" : 272,
+		"graphics" :
+		{
+			"animation" : "grove/battle/CR282.def",
+			"map" : "grove/map/avw282.def",
+			"iconSmall" : "grove/iconsSmall/CPrS282G.bmp",
+			"iconLarge" : "grove/iconsBig/CPrL282G.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			},
+			"missile" :
+			{
+				"projectile" : "grove/battle/projectile/shot281.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"growth" : 7,
+		"hitPoints" : 15,
+		"level" : 2,
+		"shots" : 4,
+		"sound" :
+		{
+			"attack" : "grove/hunter/huntattk.wav",
+			"defend" : "grove/hunter/huntdfnd.wav",
+			"killed" : "grove/hunter/huntkill.wav",
+			"move" : "grove/hunter/huntmove.wav",
+			"wince" : "grove/hunter/huntwnce.wav",
+			"shoot" : "grove/hunter/huntshot.wav"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"devenseStance" :
+			{
+				"type" : "GENERAL_ATTACK_REDUCTION",
+				"subtype" : 1,
+				"val" : 10
+			},
+			"spellPoison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 50,
+				"addInfo" : [1, 1]				
+			}
+		}
+	}
+}

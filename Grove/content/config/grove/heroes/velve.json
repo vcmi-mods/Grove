@@ -1,0 +1,73 @@
+{
+	"15velve" :
+	{
+		"class" : "hunter",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Velve",
+			"biography" : "Velve is said to be able to incite the anger in his troops, enabling them to strike harder than their peers. His troops will tell you they fight harder because they love their commander.",
+			"specialty" :
+			{
+				"description" : "{Rage}\r\n\r\nAll creatures get +1 to damage.",
+				"tooltip" : "?",
+				"name" : "Rage"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "grove/heroes/velve/UN32Blsh.bmp",
+			"specialtyLarge" : "grove/heroes/velve/UN44Blsh.bmp",
+			"large" : "grove/heroes/velve/hpl298.bmp",
+			"small" : "grove/heroes/velve/hps298.bmp",
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "faun",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "moonhunter",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "groveguard",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			}
+		],
+		"specialty": //+1 dmg
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "CREATURE_DAMAGE",
+						"subtype": 0,
+						"val" : 1,
+						"valueType" : "BASE_NUMBER"
+					}
+				]
+			}
+		]
+	}
+}
+
+

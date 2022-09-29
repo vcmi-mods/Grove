@@ -1,0 +1,62 @@
+{
+	"10suliss" :
+	{
+		"class" : "warden",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Suliss",
+			"biography" : "Matron mother of her clan, Suliss is known for her wisdom and is often called to mediate disputes between other clans. However, she turned to witchcraft when it became clear that she would never ascend the throne with ten heirs in front of her.",
+			"specialty" :
+			{
+				"description" : "{Scribe}\r\n\r\nHero knowns all 1st level spells.",
+				"tooltip" : "",
+				"name" : "Scribe"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "grove/heroes/suliss/Un32Scri.bmp",
+			"specialtyLarge" : "grove/heroes/suliss/Un44Scri.bmp",
+			"large" : "grove/heroes/suliss/hpl293.bmp",
+			"small" : "grove/heroes/suliss/hps293.bmp",
+		},
+		
+		"spellbook" :
+		[
+			"viewEarth", "bloodlust", "cure", "curse", "dispel", "bless", "haste", "magicArrow", "protectFire", "protectWater", "shield", "slow", "summonBoat", "stoneSkin", "viewAir" 
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "faun",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "moonhunter",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "groveguard",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		]
+	}
+}

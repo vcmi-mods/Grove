@@ -1,0 +1,74 @@
+{
+	"14ssin" :
+	{
+		"class" : "warden",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Sinn",
+			"biography" : "Following the path of her foremothers, beautiful but heartless Ssin became the greatest sorceress among the Night Elves. She has learned to walk a fine line between good and evil, but kept her snake-headed whip.",
+			"specialty" :
+			{
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
+				"tooltip" : "",
+				"name" : "Sorcery"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "grove/heroes/ssin/un32sorc.bmp",
+			"specialtyLarge" : "grove/heroes/ssin/un44sorc.bmp",
+			"large" : "grove/heroes/ssin/hpl297.bmp",
+			"small" : "grove/heroes/ssin/hps297.bmp"
+		},
+
+		"spellbook" :
+		[
+			"shield"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "faun",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "moonhunter",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "groveguard",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"subtype" : "skill.sorcery",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}

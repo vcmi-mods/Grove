@@ -1,0 +1,75 @@
+{
+	"saphiredragon":
+	{
+		"name" :
+		{
+			"plural" : "Saphire Dragons",
+			"singular" : "Saphire Dragon"
+		},
+		"advMapAmount" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"faction" : "grove",
+		"aiValue" : 17750,
+		"attack" : 22,
+		"cost" :
+		{
+			"gold" : 7000,
+			"crystal" : 3
+		},
+		"damage" :
+		{
+			"max" : 70,
+			"min" : 55
+		},
+		"defense" : 35,
+		"fightValue" : 15750,
+		"graphics" :
+		{
+			"animation" : "grove/battle/CR293.DEF",
+			"map" : "grove/map/AVW293.def",
+			"iconSmall" : "grove/iconsSmall/CPrS293G.bmp",
+			"iconLarge" : "grove/iconsBig/CPrL293G.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 400,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "grove/dragon/gdrgattk.wav",
+			"defend" : "grove/dragon/gdrgdfnd.wav",
+			"killed" : "grove/dragon/gdrgkill.wav",
+			"move" : "grove/dragon/gdrgmove.wav",
+			"wince" : "grove/dragon/gdrgwnce.wav"
+		},
+		"speed" : 12,
+		"abilities" :
+		{
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"noMorale" :
+			{
+				"type" : "NO_MORALE"
+			},
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : -1,
+				"val" : 90
+			}
+		}
+	}
+}

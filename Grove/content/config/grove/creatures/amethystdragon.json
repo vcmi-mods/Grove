@@ -1,0 +1,76 @@
+{
+	"amethystdragon":
+	{
+		"name" :
+		{
+			"plural" : "Amethyst Dragons",
+			"singular" : "Amethyst Dragon"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "grove",
+		"aiValue" : 5335,
+		"attack" : 19,
+		"upgrades" : ["saphiredragon"],
+		"cost" :
+		{
+			"gold" : 3500,
+			"crystal" : 2
+		},
+		"damage" :
+		{
+			"max" : 45,
+			"min" : 35
+		},
+		"defense" : 25,
+		"fightValue" : 4090,
+		"graphics" :
+		{
+			"animation" : "grove/battle/CR292.DEF",
+			"map" : "grove/map/AVW292.def",
+			"iconSmall" : "grove/iconsSmall/CPrS292G.bmp",
+			"iconLarge" : "grove/iconsBig/CPrL292G.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 295,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "grove/dragon/gdrgattk.wav",
+			"defend" : "grove/dragon/gdrgdfnd.wav",
+			"killed" : "grove/dragon/gdrgkill.wav",
+			"move" : "grove/dragon/gdrgmove.wav",
+			"wince" : "grove/dragon/gdrgwnce.wav"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"noMorale" :
+			{
+				"type" : "NO_MORALE"
+			},
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : -1,
+				"val" : 60
+			}
+		}
+	}
+}

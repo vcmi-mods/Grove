@@ -1,0 +1,67 @@
+{
+	"09jabress" :
+	{
+		"class" : "warden",
+		"female" : true,		
+		"texts" :
+		{
+			"name" : "Jabress",
+			"biography" : "Jabress spent much of her younger days toying with the dark arts, before realizing that such a path usually leads to self-destruction. Today she is feared because she knows everyone's darkest secrets and isn't afraid to expose them.",
+			"specialty" :
+			{
+				"description" : "{Weakness}\r\n\r\nCasts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"tooltip" : "",
+				"name" : "Weakness"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "grove/heroes/jabress/un32weak.bmp",
+			"specialtyLarge" : "grove/heroes/jabress/un44weak.bmp",
+			"large" : "grove/heroes/jabress/portrait-large.bmp",
+			"small" : "grove/heroes/jabress/portrait-small.bmp",
+		},
+		
+		"spellbook" :
+		[
+			"weakness"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "faun",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "moonhunter",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "groveguard",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

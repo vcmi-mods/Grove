@@ -1,0 +1,67 @@
+{
+	"artehel" :
+	{
+		"class" : "hunter",
+		"female" : false,
+		
+		"texts" :
+		{
+			"name" : "Artehel",
+			"biography" : "Artehel is only ent who decided to live among humans. Although forest calls him almost every day, he refuses to come back. On contrary - he wants to bring forest to humans world by summonning mighty Treebeards to serve his cause.",
+			"specialty" :
+			{
+				"description" : "{Treebeards}\r\n\r\nSummons some Treebeards at the beginning of the battle.",
+				"tooltip" : "Creature bonus: Treebeards",
+				"name" : "Treebeards"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "grove/heroes/artehel/un32drud.bmp",
+			"specialtyLarge" : "grove/heroes/artehel/un44drud.bmp",
+			"large" : "grove/heroes/artehel/hPL119BS.bmp",
+			"small" : "grove/heroes/artehel/hPS119BS.bmp"
+		},
+		"army" :
+		[
+			{
+				"creature" : "faun",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "moonhunter",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "groveguard",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"summoner" : {
+					"subtype" : "spell.summonTreebeard",
+					"type" : "OPENING_BATTLE_SPELL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}		
+	}
+}

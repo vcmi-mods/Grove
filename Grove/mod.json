@@ -1,0 +1,78 @@
+{
+	"name" : "Grove town (Trith edition)",
+	"description" : "New town made by New Grove Team & Trith",
+	"author" : "New Grove Team & Trith, mod : Kuririn & Pointer, fixes: avatar, Alyx182008",
+	"contact" : "http://www.grovetown.acidcave.net/indexen.htm",
+	"version" : "1.16",
+	"compatibility" :
+	{
+		"min" : "1.0.0",
+		"max" : "1.0.0"
+	},
+	"modType" : "Town",	
+	"factions" : ["config/grove/town"],
+	
+	"creatures" :
+	[
+		"config/grove/creatures/satyr.json",
+		"config/grove/creatures/faun.json",
+		"config/grove/creatures/moonhunter.json",
+		"config/grove/creatures/moonslayer.json",
+		"config/grove/creatures/groveguard.json",
+		"config/grove/creatures/grovekeeper.json",
+		"config/grove/creatures/nightdruid.json",
+		"config/grove/creatures/elderdruid.json",
+		"config/grove/creatures/basiliskrider.json",
+		"config/grove/creatures/basiliskchampion.json",
+		"config/grove/creatures/spiderprincess.json",
+		"config/grove/creatures/spiderqueen.json",
+		"config/grove/creatures/quartzdragon.json",
+		"config/grove/creatures/amethystdragon.json",
+		"config/grove/creatures/saphiredragon.json",
+		"config/grove/creatures/treebeard.json",
+		"config/grove/creatures/NightFalcon.json",
+		"config/grove/commander/nightstalker.json",
+		"config/grove/creatures/stack_exp.json"
+	],
+    "artifacts":
+    [              
+        "config/grove/artifacts/NightFalcon.json"        
+    ],
+	
+	"heroClasses" : 
+	[
+		"config/grove/classes/warden.json", 
+		"config/grove/classes/hunter.json"
+	],
+
+	"heroes" :
+	[
+		"config/grove/heroes/artehel.json",
+		"config/grove/heroes/kyorlin.json",
+		"config/grove/heroes/malla.json",
+		"config/grove/heroes/mrimm.json",
+		"config/grove/heroes/olath.json",
+		"config/grove/heroes/phindara.json",
+		"config/grove/heroes/sargh.json",
+		"config/grove/heroes/shebali.json",
+		"config/grove/heroes/sithyrr.json",
+		"config/grove/heroes/ssin.json",
+		"config/grove/heroes/suliss.json",
+		"config/grove/heroes/tuidhana.json",
+		"config/grove/heroes/ultrin.json",
+		"config/grove/heroes/velkyn.json",
+		"config/grove/heroes/velve.json",
+		"config/grove/heroes/vlos.json",
+		"config/grove/heroes/wanre.json"
+	],
+	"objects" : 
+	[ 
+		"config/grove/dwellings",
+		"config/grove/banks/templeNight.json"		
+	],
+	
+	"spells" :
+	[
+		"config/grove/spells/summonTreebeard.json"
+	]
+}

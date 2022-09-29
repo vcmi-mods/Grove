@@ -1,0 +1,97 @@
+{
+	"spiderprincess":
+	{
+		"name" :
+		{
+			"plural" : "Spider Princesses",
+			"singular" : "Spider Princess"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
+		},
+		"faction" : "grove",
+		"aiValue" : 1381,
+		"attack" : 13,
+		"cost" :
+		{
+			"gold" : 720
+		},
+		"damage" :
+		{
+			 "max" : 15,
+			 "min" : 15
+		},
+		"defense" : 15,
+		"fightValue" : 1231,
+		"graphics" :
+		{
+			"animation" : "grove/battle/CR289.DEF",
+			"map" : "grove/map/AVW289.def",
+			"iconSmall" : "grove/iconsSmall/CPRS289G.bmp",
+			"iconLarge" : "grove/iconsBig/CPrL289G.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			},
+			"missile" :
+			{
+				"projectile" : "grove/battle/projectile/shot283.def",
+				"attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 65,
+		"level" : 6,
+		"shots" : 12,
+		"upgrades":
+		[
+			"spiderqueen"
+		],
+		"sound" :
+		{
+			"attack" : "grove/spider/spidattk.wav",
+			"defend" : "grove/spider/spiddfnd.wav",
+			"killed" : "grove/spider/spidkill.wav",
+			"move" : "grove/spider/spidmove.wav",
+			"wince" : "grove/spider/spidwnce.wav",
+			"shoot" : "grove/spider/spidshot.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"castsDispelHelpful" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.dispelHelpful",
+				"val" : 1, //basic level
+				"addInfo" : 5 //cooldown turns
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 5
+			}
+		}
+	}
+}

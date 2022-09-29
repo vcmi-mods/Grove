@@ -1,0 +1,68 @@
+{
+	"treebeard":
+	{
+		"name" :
+		{
+			"plural" : "Treebeards",
+			"singular" : "Treebeard"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "grove",
+		"aiValue" : 1612,
+		"attack" : 11,
+		"cost" :
+		{
+			"gold" : 3500,
+			"crystal" : 2
+		},
+		"damage" :
+		{
+			 "max" : 20,
+			 "min" : 15
+		},
+		"defense" : 18,
+		"fightValue" : 1378,
+		"graphics" :
+		{
+			"animation" : "grove/battle/Drzewobrodzi.DEF",
+			"map" : "grove/map/DrzewobrodziS.def",
+			"iconSmall" : "grove/iconsSmall/DrzewobrodziS.bmp",
+			"iconLarge" : "grove/iconsBig/Drzewobrodzi.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+		},
+		"doubleWide" : false,
+		"growth" : 1,
+		"hitPoints" : 100,
+		"level" : 6,
+		"sound" :
+		{
+			"attack": "BTREATTK.wav",
+			"defend": "BTREDFND.wav",
+			"killed": "BTREKILL.wav",
+			"move": "BTREMOVE.wav",
+			"wince": "BTREWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"spellParalyze" :
+			{
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : "spell.paralyze",
+					"addInfo" : [1, 0],
+					"val" : 20
+			}
+		}
+	}
+}

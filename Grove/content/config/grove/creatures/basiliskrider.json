@@ -1,0 +1,69 @@
+{
+	"basiliskrider":
+	{
+		"name" :
+		{
+			"plural" : "Basilisk Riders",
+			"singular" : "Basilisk Rider"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 8
+		},
+		"faction" : "grove",
+		"aiValue" : 1045,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 500
+		},
+		"damage" :
+		{
+			 "max" : 15,
+			 "min" : 13
+		},
+		"defense" : 15,
+		"fightValue" : 939,
+		"graphics" :
+		{
+			"animation" : "grove/battle/CR287.def",
+			"map" : "grove/map/AVW287.def",
+			"iconSmall" : "grove/iconsSmall/CPrS287G.bmp",
+			"iconLarge" : "grove/iconsBig/CPrL287G.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.7,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+        },
+		"doubleWide" : true,
+		"growth" : 3,
+		"hitPoints" : 60,
+		"level" : 5,
+		"upgrades":
+		[
+			"basiliskchampion"
+		],
+		"sound" :
+		{
+			"attack" : "grove/basilisk/bsrdattk.wav",
+			"defend" : "grove/basilisk/bsrddfnd.wav",
+			"killed" : "grove/basilisk/bsrdkill.wav",
+			"move" : "grove/basilisk/bsrdmove.wav",
+			"wince" : "grove/basilisk/bsrdwnce.wav"
+		},
+		"speed" : 6,
+		"abilities":
+		{
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			}
+		}	
+	}
+}

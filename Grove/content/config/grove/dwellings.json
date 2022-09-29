@@ -1,0 +1,127 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"cedarHalls" : {
+				"name" : "Cedar Halls",
+				"sounds": {
+					"ambient": ["grove/dwellings/dwell1loop.wav"]
+				},
+				"creatures" : [[ "faun" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "grove/map/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"huntersGuild" : {
+				"name" : "Hunters Guild",
+				"sounds": {
+					"ambient": ["grove/dwellings/dwell2loop.wav"]
+				},
+				"creatures" : [[ "moonhunter" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "grove/map/dwelling-2.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"redwoodSpires" : {
+				"name" : "Redwood Spires",
+				"sounds": {
+					"ambient": ["grove/dwellings/dwell3loop.wav"]
+				},
+				"creatures" : [[ "groveguard" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "grove/map/dwelling-3.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"caveOfDreams" : {
+				"name" : "Cave of Dreams",
+				"sounds": {
+					"ambient": ["grove/dwellings/dwell4loop.wav"]
+				},
+				"creatures" : [[ "nightdruid" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "grove/map/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"witchingHollow" : {
+				"name" : "Witching Hollow",
+				"sounds": {
+					"ambient": ["grove/dwellings/dwell5loop.wav"]
+				},
+				"creatures" : [[ "basiliskrider" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "grove/map/dwelling-5.def",
+						"mask" : [ "VV", "VV", "VVVV", "VVV", "BA" ]
+					}
+				}
+			},
+			"royalChambers" : {
+				"name" : "Royal Chambers",
+				"sounds": {
+					"ambient": ["grove/dwellings/dwell6loop.wav"]
+				},
+				"creatures" : [[ "spiderprincess" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "grove/map/dwelling-6.def",
+						"mask" : [ "VVV", "VAB" ]
+					}
+				}
+			},
+			"sapphireFortress" : {
+				"name" : "Sapphire Fortress",
+				"sounds": {
+					"ambient": ["grove/dwellings/dwell7loop.wav"]
+				},
+				"creatures" : [[ "saphiredragon" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "grove/map/dwelling-8.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"quartzFortress" : {
+				"name" : "Quartz Fortress",
+				"creatures" : [[ "quartzdragon" ]],
+				"sounds": {
+					"ambient": ["grove/dwellings/dwell7loop.wav"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "grove/map/dwelling-7.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"primevalPeatbog" : {
+				"name" : "Primeval Peatbog",
+				"sounds": {
+					"ambient": ["grove/dwellings/peatbogloop.wav"]
+				},
+				"creatures" : [[ "treebeard" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "grove/map/primevalPeatbog.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

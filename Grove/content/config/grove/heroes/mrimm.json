@@ -1,0 +1,72 @@
+{
+	"02mrimm" :
+	{
+		"class" : "hunter",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Mrimm",
+			"biography" : "Being an orphan, Mrimm was raised by druids who put all the children on a strict regimen of chores, study, prayer, and more chores. Today he is at home in the woods under the starry sky, while his lust for freedom has made him the Grove's best scout.",
+			"specialty" :
+			{
+				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to Logistics skill percentage.",
+				"tooltip" : "",
+				"name" : "Logistics"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "grove/heroes/mrimm/un32logi.bmp",
+			"specialtyLarge" : "grove/heroes/mrimm/un44logi.bmp",
+			"large" : "grove/heroes/mrimm/hpl285.bmp",
+			"small" : "grove/heroes/mrimm/hps285.bmp"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "faun",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "faun",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "faun",
+				"max" : 20,
+				"min" : 10
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"subtype" : "skill.logistics",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}
+
+
+
