@@ -14,7 +14,7 @@
 		"description" : "Hain Stadt",
 		"modType" : "Stadt",		
 		"translations" : [
-			"translation/german.json"
+			"translation/grove/german.json"
 		]
 	},	
 	"factions" : ["config/grove/town"],
