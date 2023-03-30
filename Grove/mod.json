@@ -12,7 +12,6 @@
 	"german" : {
 		"name" : "Hain",
 		"description" : "Hain Stadt",
-		"modType" : "Stadt",		
 		"translations" : [
 			"translation/grove/german.json"
 		]
