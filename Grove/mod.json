@@ -18,7 +18,7 @@
 	},	
 	"changelog" :
     {
-        "1.17"   : [ "Update to vcmi-1.2" ]
+        "1.17"   : [ "Update to vcmi-1.2" ],
 		"1.00"   : [ "Initial release" ]
     },
 	"factions" : ["config/grove/town"],
