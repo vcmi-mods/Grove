@@ -3,10 +3,10 @@
 	"description" : "New town made by New Grove Team & Trith",
 	"author" : "New Grove Team & Trith, mod : Kuririn & Pointer, fixes: avatar, Alyx182008",
 	"contact" : "http://www.grovetown.acidcave.net/indexen.htm",
-	"version" : "1.16",
+	"version" : "1.17",
 	"compatibility" :
 	{
-		"min" : "1.0.0"
+		"min" : "1.2.0"
 	},
 	"modType" : "Town",
 	"german" : {
@@ -16,6 +16,11 @@
 			"translation/grove/german.json"
 		]
 	},	
+	"changelog" :
+    {
+        "1.17"   : [ "Update to vcmi-1.2" ]
+		"1.00"   : [ "Initial release" ]
+    },
 	"factions" : ["config/grove/town"],
 	
 	"creatures" :

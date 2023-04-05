@@ -21,7 +21,7 @@
 			"specialtySmall" : "grove/heroes/velve/UN32Blsh.bmp",
 			"specialtyLarge" : "grove/heroes/velve/UN44Blsh.bmp",
 			"large" : "grove/heroes/velve/hpl298.bmp",
-			"small" : "grove/heroes/velve/hps298.bmp",
+			"small" : "grove/heroes/velve/hps298.bmp"
 		},
 
 		"army" :
@@ -53,20 +53,16 @@
 				"skill" : "fireMagic"
 			}
 		],
-		"specialty": //+1 dmg
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "CREATURE_DAMAGE",
-						"subtype": 0,
-						"val" : 1,
-						"valueType" : "BASE_NUMBER"
-					}
-				]
+		"specialty": { //+1 dmg
+			"bonuses": {
+				"moreDamage" : {
+					"type": "CREATURE_DAMAGE",
+					"subtype": 0,
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				}
 			}
-		]
+		}
 	}
 }
 

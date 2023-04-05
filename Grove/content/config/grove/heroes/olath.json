@@ -11,7 +11,7 @@
 			"specialty" :
 			{
 				"description" : "{Crystals}\r\n\r\nIncreases kingdom's crystal production by 1 per day.",
-				"tooltip" : "",
+				"tooltip" : "Specialy bonus: resources",
 				"name" : "+1 Crystal"
 			}
 		},

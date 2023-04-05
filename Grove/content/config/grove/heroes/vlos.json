@@ -21,7 +21,7 @@
 			"specialtySmall" : "grove/heroes/vlos/un32firs.bmp",
 			"specialtyLarge" : "grove/heroes/vlos/un44firs.bmp",
 			"large" : "grove/heroes/vlos/hpl295.bmp",
-			"small" : "grove/heroes/vlos/hps295.bmp",
+			"small" : "grove/heroes/vlos/hps295.bmp"
 		},
 
 		"spellbook" :
@@ -63,11 +63,12 @@
 		"specialty" : {
 			"bonuses" : {
 				"firstAid" : {
-					"subtype" : "skill.firstAid",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : "TIMES_HERO_LEVEL",
+					"subtype" : "core:spell.firstAid",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPECIFIC_SPELL_POWER",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		}

@@ -36,9 +36,8 @@
 			{
 				"walk" : 1.00,
 				"idle" : 10.00,
-				"attack" : 1.00,
-				"flight" : 1.00
-			},
+				"attack" : 1.00
+			}
 		},
 		"growth" : 12,
 		"hitPoints" : 10,
@@ -54,7 +53,7 @@
 			"defend" : "grove/faun/satrdfnd.wav",
 			"killed" : "grove/faun/satrkill.wav",
 			"move" : "grove/faun/satrmove.wav",
-			"wince" : "grove/faun/satrwnce.wav",
+			"wince" : "grove/faun/satrwnce.wav"
 		},
 		"speed" : 4,
 		"abilities" :

@@ -11,7 +11,7 @@
 			"specialty" :
 			{
 				"description" : "{Basilisk Riders}\r\n\r\nIncreases the Attack and Defense skills of any Basilisk Riders or Basilisk Champions for each level attained after 5th level.",
-				"tooltip" : "",
+				"tooltip" : "Specialty bonus: Basilisk Riders",
 				"name" : "Basilisk Riders"
 			}
 		},

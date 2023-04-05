@@ -55,24 +55,21 @@
 			}
 		],
 		
-		"specialty": //estate bonus
-		[
+		"specialty": {
+			"bonuses":
 			{
-				"bonuses":
-				[
-					{
-						"type": "GENERATE_RESOURCE",
-						"subtype": "resource.wood",
-						"val": 1
-					},
-					{
-						"type": "GENERATE_RESOURCE",
-						"subtype": "resource.ore",
-						"val": 1
-					}
-				]
+				"wood" : {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "resource.wood",
+					"val": 1
+				},
+				"ore" : {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "resource.ore",
+					"val": 1
+				}
 			}
-		]
+		}
 	}
 }
 

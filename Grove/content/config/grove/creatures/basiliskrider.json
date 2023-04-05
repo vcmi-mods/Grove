@@ -36,8 +36,7 @@
 			{
 				"walk" : 0.7,
 				"idle" : 10.00,
-				"attack" : 1.00,
-				"flight" : 1.00
+				"attack" : 1.00
 			}
         },
 		"doubleWide" : true,

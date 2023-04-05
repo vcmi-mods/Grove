@@ -334,13 +334,13 @@
 					},
 					"type" : "defenceVisitingBonus",
 					"requires" : [ "allOf", ["tavern"], ["fort"], ["townHall"], ["special2"] ],
-					"id" : 17,
+					"id" : 17
 				},
 				"special2" : {
 					"cost" : 
 					{
 						"gems" : 5,
-						"gold" : 1000,
+						"gold" : 1000
 					},
 					"description" : "The presence of Wolf Chant adds +2 to a garrison hero's defense skill when defending against a siege.",
 					"id" : 21,
@@ -534,6 +534,8 @@
 					"arch" : { "x" : 483, "y" : 236 }					
 				},
 				"imagePrefix" : "grove/siege/sggr",
+				"towerIconSmall" : "grove/icons/arrowtowersmall",
+				"towerIconLarge" : "grove/icons/arrowtowerslarge",
 				"moat" :
 				{
 					"moat" : { "x" : 383, "y" : 95 },

@@ -11,7 +11,7 @@
 			"specialty" :
 			{
 				"description" : "{Amorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill percentage.",
-				"tooltip" : "",
+				"tooltip" : "Specialty bonus: Armorer",
 				"name" : "Armorer"
 			}
 		},
@@ -53,11 +53,12 @@
 		"specialty" : {
 			"bonuses" : {
 				"armorer" : {
-					"subtype" : "skill.armorer",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : "TIMES_HERO_LEVEL",
+					"subtype" : -1,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "GENERAL_DAMAGE_REDUCTION",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		}

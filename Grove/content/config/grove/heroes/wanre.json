@@ -11,7 +11,7 @@
 			"specialty" :
 			{
 				"description" : "{Shamanism}\r\n\r\nHero recovers all spell points at the start of new day.",
-				"tooltip" : "",
+				"tooltip" : "Specialty bonus: Shamanism",
 				"name" : "Shamanism"
 			}
 		},
@@ -59,16 +59,13 @@
 				"skill" : "intelligence"
 			}
 		],
-		"specialty":
-		[
-			{
-				"bonuses" :
-				[
-					{
+		"specialty": {
+			"bonuses" : {
+				"mana" :
+				{
 					"type" : "FULL_MANA_REGENERATION"
-					}
-				]
+				}
 			}
-		]
+		}
 	}
 }

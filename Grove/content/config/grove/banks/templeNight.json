@@ -3,14 +3,13 @@
 	{
 		"types" : 
 		{
-			"TempleNight" : 
+			"templeNight" : 
 			{
 				"name" : "Temple of Night",
 				"templates" : {
 					"base" : { "animation" : "Grove/map/banks/TempleNight.def", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
-					"mask" : [ "VVV", "VBV", "VAV"], 
-					"allowedTerrains":["subterra", "rough", "dirt", "swamp", "lava"] 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
+					"mask" : [ "VVV", "VBV", "VAV"]
 					}
 				},
 				"rmg" : {

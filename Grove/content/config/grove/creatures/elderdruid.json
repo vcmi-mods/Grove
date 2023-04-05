@@ -36,8 +36,7 @@
 			{
 				"walk" : 1.00,
 				"idle" : 10.00,
-				"attack" : 0.5,
-				"flight" : 1.00
+				"attack" : 0.5
 			}
 		},
 		"growth" : 4,
@@ -49,7 +48,7 @@
 			"defend" : "grove/druid/druidfnd.wav",
 			"killed" : "grove/druid/druikill.wav",
 			"move" : "grove/druid/druimove.wav",
-			"wince" : "grove/druid/druiwnce.wav",
+			"wince" : "grove/druid/druiwnce.wav"
  		},
 		"speed" : 9,
 		"abilities" :

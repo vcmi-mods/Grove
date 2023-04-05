@@ -11,7 +11,7 @@
 			"specialty" :
 			{
 				"description" : "{Night Druids}\r\n\r\nIncreases the Attack and Defense skills of any Night Druids or Elder Druids she commands for each level attainded after 4th level.",
-				"tooltip" : "",
+				"tooltip" : "Specialty bonus: Night Druids",
 				"name" : "Night Druids"
 			}
 		},

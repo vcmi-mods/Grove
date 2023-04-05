@@ -11,7 +11,7 @@
 			"specialty" :
 			{
 				"description" : "{Scribe}\r\n\r\nHero knowns all 1st level spells.",
-				"tooltip" : "",
+				"tooltip" : "Specialty bonus: Scribe",
 				"name" : "Scribe"
 			}
 		},
@@ -21,7 +21,7 @@
 			"specialtySmall" : "grove/heroes/suliss/Un32Scri.bmp",
 			"specialtyLarge" : "grove/heroes/suliss/Un44Scri.bmp",
 			"large" : "grove/heroes/suliss/hpl293.bmp",
-			"small" : "grove/heroes/suliss/hps293.bmp",
+			"small" : "grove/heroes/suliss/hps293.bmp"
 		},
 		
 		"spellbook" :
@@ -57,6 +57,8 @@
 				"level" : "basic",
 				"skill" : "waterMagic"
 			}
-		]
+		],
+		"specialty" : {
+		}
 	}
 }

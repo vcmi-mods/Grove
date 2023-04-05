@@ -11,7 +11,7 @@
 			"specialty" :
 			{
 				"description" : "{Ballista}\r\n\r\nIncreses the Attack and Defense skill of any Ballista for each level attained after 4th level.",
-				"tooltip" : "",
+				"tooltip" : "Specialty bonus: Ballista",
 				"name" : "Ballista"
 			}
 		},

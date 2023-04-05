@@ -11,7 +11,7 @@
 			"specialty" :
 			{
 				"description" : "{Runner}\r\n\r\nAll units in army get +1 speed.",
-				"tooltip" : "",
+				"tooltip" : "Specialty bonus: Runner",
 				"name" : "Runner"
 			}
 		},
@@ -21,7 +21,7 @@
 			"specialtySmall" : "grove/heroes/tuidhana/Un32Fmag",
 			"specialtyLarge" : "grove/heroes/tuidhana/Un44Fmag",
 			"large" : "grove/heroes/tuidhana/hpl300.bmp",
-			"small" : "grove/heroes/tuidhana/hps300.bmp",
+			"small" : "grove/heroes/tuidhana/hps300.bmp"
 		},
 
 		"spellbook" :

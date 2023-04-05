@@ -253,7 +253,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "SHOTS",
+					"type" : "SHOTS"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
 			},
@@ -347,7 +347,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "SHOTS",
+					"type" : "SHOTS"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
 			},
@@ -671,7 +671,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 43, //"spell.bloodlust", 
+					"subtype" : 43 //"spell.bloodlust", 
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3 ]			
 			},
@@ -816,7 +816,7 @@
 				"bonus" :
 				{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype" : 1, //air shield effect
+				"subtype" : 1 //air shield effect
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
 			},
@@ -1104,7 +1104,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "LEVEL_SPELL_IMMUNITY",				
+					"type" : "LEVEL_SPELL_IMMUNITY"				
 				},
 				"values" : [ 0, 0, 0, 0, 0, 1, 1, 1, 1, 1 ]
 			},
@@ -1187,7 +1187,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "LEVEL_SPELL_IMMUNITY",				
+					"type" : "LEVEL_SPELL_IMMUNITY"			
 				},
 				"values" : [ 0, 2, 2, 2, 2, 2, 2, 2, 2, 2 ]
 			},
@@ -1270,7 +1270,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "LEVEL_SPELL_IMMUNITY",				
+					"type" : "LEVEL_SPELL_IMMUNITY"	
 				},
 				"values" : [ 0, 3, 3, 3, 3, 3, 3, 3, 3, 3 ]
 			},
@@ -1331,7 +1331,9 @@
 			{
 				"bonus" :
 				{
-					"type" : "FULL_HP_REGENERATION",
+					"type" : "HP_REGENERATION",
+					"val" : 100000,
+					"valueType" : "ADDITIVE_VALUE",
 					"subtype" : 1
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
