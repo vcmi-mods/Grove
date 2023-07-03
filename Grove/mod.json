@@ -3,12 +3,18 @@
 	"description" : "New town made by New Grove Team & Trith",
 	"author" : "New Grove Team & Trith, mod : Kuririn & Pointer, fixes: avatar, Alyx182008",
 	"contact" : "http://www.grovetown.acidcave.net/indexen.htm",
-	"version" : "1.17",
+	"version" : "1.18",
 	"compatibility" :
 	{
 		"min" : "1.2.0"
 	},
 	"modType" : "Town",
+	"chinese" : {
+		"name" : "丛林",
+		"translations" : [
+			"translation/grove/chinese.json"
+		]
+	},
 	"german" : {
 		"name" : "Hain",
 		"description" : "Hain Stadt",
@@ -18,6 +24,7 @@
 	},	
 	"changelog" :
     {
+        "1.18"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
         "1.17"   : [ "Update to vcmi-1.2" ],
 		"1.00"   : [ "Initial release" ]
     },
