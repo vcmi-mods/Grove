@@ -3,6 +3,7 @@
 		"alignment" : "neutral",
 		"creatureBackground" : { "120px" : "grove/creature-bg-120px.bmp", "130px" : "grove/creature-bg-130px.bmp" },
 		"name" : "Grove",
+		"boat" : "boatFortress",
 		"nativeTerrain" : "swamp",
 		"puzzleMap" : {
 			"prefix" : "grove/puzzle-map/PUZ",
@@ -475,6 +476,7 @@
 				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUp2Lvl7" ] ]
 			],
 			"horde" : [ 0, -1 ],
+			"moatAbility" : "groveMoat",
 			"icons" : {
 				"fort" : {
 					"built" : {
@@ -506,7 +508,6 @@
 					"village" : { "animation" : "grove/map/town-village.def" }
 				}
 			},
-			"moatDamage" : 90,
 			"musicTheme" : "music/factions/GroveTown",
 			"names" : [
 				"Darkwood",

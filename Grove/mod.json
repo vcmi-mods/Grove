@@ -3,10 +3,10 @@
 	"description" : "New town made by New Grove Team & Trith",
 	"author" : "New Grove Team & Trith, mod : Kuririn & Pointer, fixes: avatar, Alyx182008",
 	"contact" : "http://www.grovetown.acidcave.net/indexen.htm",
-	"version" : "1.18",
+	"version" : "1.19",
 	"compatibility" :
 	{
-		"min" : "1.2.0"
+		"min" : "1.3.0"
 	},
 	"modType" : "Town",
 	"chinese" : {
@@ -24,7 +24,8 @@
 	},	
 	"changelog" :
     {
-        "1.18"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
+        "1.19"   : [ "Update to vcmi-1.3" ],
+		"1.18"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
         "1.17"   : [ "Update to vcmi-1.2" ],
 		"1.00"   : [ "Initial release" ]
     },
@@ -91,6 +92,7 @@
 	
 	"spells" :
 	[
-		"config/grove/spells/summonTreebeard.json"
+		"config/grove/spells/summonTreebeard.json",
+		"config/grove/spells/moat.json"
 	]
 }
