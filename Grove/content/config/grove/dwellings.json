@@ -77,7 +77,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "grove/map/dwelling-6.def",
-						"mask" : [ "VVV", "VAB" ]
+						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
 				}
 			},

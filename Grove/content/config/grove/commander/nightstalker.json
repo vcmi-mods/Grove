@@ -63,10 +63,6 @@
 		"speed" : 5,
 		"abilities" :
 		{
-//			"canShoot" :
-//			{
-//				"type" : "SHOOTER"
-//			},
 			"magicResistance" :
 			{
 				"type" : "MAGIC_RESISTANCE",

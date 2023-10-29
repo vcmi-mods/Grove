@@ -621,10 +621,10 @@
 				"mageGuild5" :
 				{
 					"animation" : "grove/buildings/03-mages-guild-5",
-					"area" : "grove/town-screen/buildings-area/02-mages-guild-4",
-					"border" : "grove/town-screen/buildings-border/02-mages-guild-4",
+					"area" : "grove/town-screen/buildings-area/02-mages-guild-5",
+					"border" : "grove/town-screen/buildings-border/02-mages-guild-5",
 					"x" : 664,
-					"y" : 135
+					"y" : 122
 				},
 				"tavern" :
 				{
