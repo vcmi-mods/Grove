@@ -57,7 +57,7 @@
 			"bonuses": {
 				"moreDamage" : {
 					"type": "CREATURE_DAMAGE",
-					"subtype": 0,
+					"subtype": "creatureDamageBoth",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER"
 				}

@@ -3,14 +3,15 @@
 	"description" : "New town made by New Grove Team & Trith",
 	"author" : "New Grove Team & Trith, mod : Kuririn & Pointer, fixes: avatar, Alyx182008",
 	"contact" : "http://www.grovetown.acidcave.net/indexen.htm",
-	"version" : "1.22",
+	"version" : "1.23",
 	"compatibility" :
 	{
-		"min" : "1.3.0"
+		"min" : "1.4.0"
 	},
 	"modType" : "Town",
 	"chinese" : {
 		"name" : "丛林",
+		"description" : "丛林",
 		"translations" : [
 			"translation/grove/chinese.json"
 		]
@@ -31,6 +32,7 @@
 	},
 	"changelog" :
     {
+		"1.23"   : [ "Update to vcmi-1.4 format" ],
 		"1.22"   : [ "Chinese translation update by Rindlit" ],
 		"1.21"   : [ "Small graphic fixes" ],
         "1.20"   : [ "Polish translation by Dru" ],

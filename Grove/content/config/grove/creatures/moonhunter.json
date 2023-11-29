@@ -82,7 +82,6 @@
 			"devenseStance" :
 			{
 				"type" : "GENERAL_ATTACK_REDUCTION",
-				"subtype" : 1,
 				"val" : 10
 			}
 		}
