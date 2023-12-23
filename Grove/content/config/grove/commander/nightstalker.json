@@ -13,8 +13,8 @@
 		"attack" : 5,
 		"damage" :
 		{
-			"max" : 15,
-			"min" : 7
+			"max" : 12,
+			"min" : 6
 		},
 		"defense" : 5,
 		"fightValue" : 628,
@@ -50,7 +50,7 @@
 		},
 		"doubleWide" : false,
 		"growth" : 1,
-		"hitPoints" : 60,
+		"hitPoints" : 40,
 		"shots"	: 24,
 		"sound" :
 		{
@@ -60,7 +60,7 @@
 			"move": "BTREMOVE.wav",
 			"wince": "BTREWNCE.wav"
 		},
-		"speed" : 5,
+		"speed" : 4,
 		"abilities" :
 		{
 			"magicResistance" :
