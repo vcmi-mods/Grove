@@ -58,7 +58,7 @@
 		"growth" : 7,
 		"hitPoints" : 16,
 		"level" : 3,
-		"shots" : 12,
+		"shots" : 24,
 		"upgrades":
 		[
 			"grovekeeper"
@@ -72,12 +72,17 @@
 			"wince" : "grove/dryad/dryawnce.wav",
 			"shoot" : "grove/dryad/dryashot.wav"
 		},
-		"speed" : 6,
+		"speed" : 10,
 		"abilities" :
 		{
 			"canShoot" :
 			{
 				"type" : "SHOOTER"
+			},
+			"additionalAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
 			},
 			"spellDispellHelpful" :
 			{

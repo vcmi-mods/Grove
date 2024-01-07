@@ -8,8 +8,8 @@
 		},
 		"advMapAmount" :
 		{
-			"max" : 12,
-			"min" : 8
+			"max" : 16,
+			"min" : 10
 		},
 		"faction" : "grove",
 		"aiValue" : 679,

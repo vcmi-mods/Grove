@@ -58,7 +58,7 @@
 		"growth" : 7,
 		"hitPoints" : 22,
 		"level" : 3,
-		"shots" : 24,
+		"shots" : 12,
 		"sound" :
 		{
 			"attack" : "grove/keeper/gkprattk.wav",
@@ -74,11 +74,6 @@
 			"canShoot" :
 			{
 				"type" : "SHOOTER"
-			},
-			"additionalAttack" :
-			{
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : 1
 			},
 			"dispellHelpful" :
 			{
