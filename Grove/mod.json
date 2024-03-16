@@ -11,7 +11,7 @@
 	"modType" : "Town",
 	"chinese" : {
 		"name" : "丛林",
-		"description" : "丛林",
+		"description" : "丛林的设计脱胎于《魔兽争霸 III》，居住着其中的暗夜精灵族。由New Grove Team & Trith打造。",
 		"translations" : [
 			"translation/grove/chinese.json"
 		]
