@@ -3,7 +3,7 @@
 	"description" : "New town made by New Grove Team & Trith",
 	"author" : "New Grove Team & Trith, mod : Kuririn & Pointer, fixes: avatar, Alyx182008",
 	"contact" : "http://www.grovetown.acidcave.net/indexen.htm",
-	"version" : "1.28",
+	"version" : "1.29",
 	"compatibility" :
 	{
 		"min" : "1.4.0"
@@ -39,6 +39,7 @@
 	},
 	"changelog" :
     {
+		"1.29"   : [ "Fixed Grove Guards/Keepers stats (by Dark Imagine)" ],
 		"1.28"   : [ "Updated russian translation" ],
 		"1.27"   : [ "Russian translation by Anton Sergeew" ],
 		"1.26"   : [ "Fixed the commander and other bugs" ],

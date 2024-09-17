@@ -20,8 +20,8 @@
 		},
 		"damage" :
 		{
-			 "max" : 6,
-			 "min" : 4
+			 "max" : 5,
+			 "min" : 3
 		},
 		"defense" : 8,
 		"fightValue" : 360,
@@ -58,7 +58,7 @@
 		"growth" : 7,
 		"hitPoints" : 22,
 		"level" : 3,
-		"shots" : 12,
+		"shots" : 24,
 		"sound" :
 		{
 			"attack" : "grove/keeper/gkprattk.wav",
@@ -74,6 +74,11 @@
 			"canShoot" :
 			{
 				"type" : "SHOOTER"
+			},
+			"additionalAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
 			},
 			"dispellHelpful" :
 			{
