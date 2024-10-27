@@ -65,6 +65,7 @@
 					"cost" : { "gold" : 1000, "wood" : 5 },
 					"description" : "The Blacksmith provides your armies with First Aid Tents.",
 					"id" : 16,
+					"warMachine" : "nightFalcon",
 					"name" : "Blacksmith"
 				},
 				"capitol" : {
@@ -309,12 +310,15 @@
 					"cost" : { "gold" : 500, "wood" : 5 },
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"id" : 14,
+					"marketModes" : ["resource-resource", "resource-player"],
+
 					"name" : "Marketplace"
 				},
 				"resourceSilo" : {
 					"cost" : { "gold" : 5000, "ore" : 5 },
 					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
 					"id" : 15,
+					"produce": { "crystal": 1 },
 					"name" : "Resource Silo",
 					"requires" : [ "marketplace" ]
 				},
@@ -333,7 +337,15 @@
 					{
 						"gold" : 1000
 					},
-					"type" : "defenceVisitingBonus",
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "Spending time in the Elder Elm, the experienced warriors therein teach you additional defensive skills (+1 Defense)",
+								"primary" : { "defence" : 1 }
+							}
+						]
+					},
 					"requires" : [ "allOf", ["tavern"], ["fort"], ["townHall"], ["special2"] ],
 					"id" : 17
 				},
@@ -345,7 +357,13 @@
 					},
 					"description" : "The presence of Wolf Chant adds +2 to a garrison hero's defense skill when defending against a siege.",
 					"id" : 21,
-					"type" : "defenseGarrisonBonus",
+					"bonuses": [
+						{
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.defence",
+							"val": 2
+						}
+					],
 					"name" : "Wolf Chant",
 					"requires" : ["fort"]
 				},
@@ -355,7 +373,7 @@
 					"id" : 22,
 					"type" : "library",
 					"name" : "Pillars of Magic",
-					"requires" : [ "tavern" ]
+					"requires" : [ "mageGuild1" ]
 				},
 				"tavern" : {
 					"cost" : { "gold" : 500, "wood" : 5 },
@@ -508,7 +526,7 @@
 					"village" : { "animation" : "grove/map/town-village.def" }
 				}
 			},
-			"musicTheme" : "music/factions/GroveTown",
+			"musicTheme" : [ "music/factions/GroveTown" ],
 			"names" : [
 				"Darkwood",
 				"Moonforest",
@@ -928,8 +946,7 @@
 				}
 			},
 			"tavernVideo" : "TAVERN.BIK",
-			"townBackground" : "grove/town-screen/background.bmp",
-			"warMachine" : "nightFalcon"
+			"townBackground" : "grove/town-screen/background.bmp"
 		}
 	}
 }
