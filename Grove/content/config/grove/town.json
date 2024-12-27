@@ -215,6 +215,7 @@
 				"grail" : {
 					"description" : "The presence of the Guardian of Night increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, increases the Attack and Defense strength of a garrison hero by +10 each when defending against a siege and summons Treebeards (quantity depends on hero spellpower).",
 					"id" : 26,
+					"produce": { "gold": 5000 },
 					"mode" : "grail",
 					"bonuses": [
 						{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.attack", "val": 10 },

@@ -3,7 +3,7 @@
 	"description" : "New town made by New Grove Team & Trith",
 	"author" : "New Grove Team & Trith, mod : Kuririn & Pointer, fixes: avatar, Alyx182008",
 	"contact" : "http://www.grovetown.acidcave.net/indexen.htm",
-	"version" : "1.30",
+	"version" : "1.31",
 	"compatibility" :
 	{
 		"min" : "1.6.0"
@@ -39,6 +39,7 @@
 	},
 	"changelog" :
     {
+		"1.31"   : [ "Fix Grail not to produce gold" ],
 		"1.30"   : [ "Update to vcmi-1.6 format" ],
 		"1.29"   : [ "Fixed Grove Guards/Keepers stats (by Dark Imagine)" ],
 		"1.28"   : [ "Updated russian translation" ],
