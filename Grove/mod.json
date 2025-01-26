@@ -16,13 +16,20 @@
 			"translation/grove/chinese.json"
 		]
 	},
+	"french" : {
+		"name" : "Bosquet",
+		"description" : "Une ville créée par New Grove Team & Trith",
+		"translations" : [
+			"translation/grove/french.json"
+		]
+	},
 	"german" : {
 		"name" : "Hain",
 		"description" : "Hain Stadt",
 		"translations" : [
 			"translation/grove/german.json"
 		]
-	},	
+	},
 	"polish" : {
 		"name" : "Gaj",
 		"description" : "Mod dodaje miasto Gaj",
