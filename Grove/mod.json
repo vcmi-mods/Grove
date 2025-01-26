@@ -3,7 +3,7 @@
 	"description" : "New town made by New Grove Team & Trith",
 	"author" : "New Grove Team & Trith, mod : Kuririn & Pointer, fixes: avatar, Alyx182008",
 	"contact" : "http://www.grovetown.acidcave.net/indexen.htm",
-	"version" : "1.31",
+	"version" : "1.32",
 	"compatibility" :
 	{
 		"min" : "1.6.0"
@@ -14,6 +14,13 @@
 		"description" : "丛林的设计脱胎于《魔兽争霸 III》，居住着其中的暗夜精灵族。由New Grove Team & Trith打造。",
 		"translations" : [
 			"translation/grove/chinese.json"
+		]
+	},
+	"french" : {
+		"name" : "Bosquet",
+		"description" : "Une ville créée par New Grove Team & Trith",
+		"translations" : [
+			"translation/grove/french.json"
 		]
 	},
 	"german" : {
@@ -39,6 +46,7 @@
 	},
 	"changelog" :
     {
+		"1.32"   : [ "French translation by Fabrice-TIERCELIN" ],
 		"1.31"   : [ "Fix Grail not to produce gold" ],
 		"1.30"   : [ "Update to vcmi-1.6 format" ],
 		"1.29"   : [ "Fixed Grove Guards/Keepers stats (by Dark Imagine)" ],
